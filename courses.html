@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - EduPlatform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>EduPlatform</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="courses.html" class="nav-link active">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="instructors.html" class="nav-link">Instructors</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Courses</h1>
+            <p>Discover our comprehensive collection of courses designed to help you achieve your learning goals.</p>
+        </div>
+    </section>
+
+    <!-- Course Filters -->
+    <section class="course-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Courses</button>
+                <button class="filter-btn" data-filter="programming">Programming</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Grid -->
+    <section class="courses-section">
+        <div class="container">
+            <div class="courses-grid">
+                <!-- Programming Courses -->
+                <div class="course-card" data-category="programming">
+                    <div class="course-image">
+                        <img src="images/two.jpg" alt="Complete Programming Bootcamp">
+                        <div class="course-level">Beginner</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Complete Programming Bootcamp</h3>
+                        <p>Master programming fundamentals including Python, JavaScript, and web development with hands-on projects and real-world applications.</p>
+                        <div class="course-meta">
+                            <span class="duration">12 weeks</span>
+                            <span class="students">2,450 students</span>
+                            <span class="rating">★ 4.9</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">$299</span>
+                            <span class="original-price">$399</span>
+                        </div>
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="design">
+                    <div class="course-image">
+                        <img src="images/three.jpg" alt="UI/UX Design Mastery">
+                        <div class="course-level">Intermediate</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>UI/UX Design Mastery</h3>
+                        <p>Create stunning user interfaces and experiences using Figma, Adobe XD, and industry best practices for modern design.</p>
+                        <div class="course-meta">
+                            <span class="duration">8 weeks</span>
+                            <span class="students">1,890 students</span>
+                            <span class="rating">★ 4.8</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">$249</span>
+                            <span class="original-price">$329</span>
+                        </div>
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="marketing">
+                    <div class="course-image">
+                        <img src="images/four.jpg" alt="Digital Marketing Strategy">
+                        <div class="course-level">Beginner</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Digital Marketing Strategy</h3>
+                        <p>Build effective marketing campaigns using SEO, social media, email marketing, and analytics to grow your online presence.</p>
+                        <div class="course-meta">
+                            <span class="duration">6 weeks</span>
+                            <span class="students">3,120 students</span>
+                            <span class="rating">★ 4.7</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">$199</span>
+                            <span class="original-price">$279</span>
+                        </div>
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="programming">
+                    <div class="course-image">
+                        <img src="images/seven.jpg" alt="Advanced JavaScript">
+                        <div class="course-level">Advanced</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Advanced JavaScript & React</h3>
+                        <p>Deep dive into modern JavaScript ES6+, React, Node.js, and build full-stack applications with cutting-edge technologies.</p>
+                        <div class="course-meta">
+                            <span class="duration">10 weeks</span>
+                            <span class="students">1,567 students</span>
+                            <span class="rating">★ 4.9</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">$349</span>
+                            <span class="original-price">$449</span>
+                        </div>
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="design">
+                    <div class="course-image">
+                        <img src="images/eight.jpg" alt="Graphic Design Fundamentals">
+                        <div class="course-level">Beginner</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Graphic Design Fundamentals</h3>
+                        <p>Learn the principles of graphic design, typography, color theory, and create professional designs using Adobe Creative Suite.</p>
+                        <div class="course-meta">
+                            <span class="duration">7 weeks</span>
+                            <span class="students">2,234 students</span>
+                            <span class="rating">★ 4.6</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">$229</span>
+                            <span class="original-price">$299</span>
+                        </div>
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="business">
+                    <div class="course-image">
+                        <img src="images/nine.jpg" alt="Project Management">
+                        <div class="course-level">Intermediate</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Project Management Essentials</h3>
+                        <p>Master project management methodologies including Agile, Scrum, and traditional approaches to lead successful projects.</p>
+                        <div class="course-meta">
+                            <span class="duration">8 weeks</span>
+                            <span class="students">1,789 students</span>
+                            <span class="rating">★ 4.8</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">$279</span>
+                            <span class="original-price">$359</span>
+                        </div>
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="marketing">
+                    <div class="course-image">
+                        <img src="images/ten.jpg" alt="Social Media Marketing">
+                        <div class="course-level">Beginner</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Social Media Marketing Mastery</h3>
+                        <p>Create engaging content, build communities, and drive conversions across all major social media platforms.</p>
+                        <div class="course-meta">
+                            <span class="duration">5 weeks</span>
+                            <span class="students">2,890 students</span>
+                            <span class="rating">★ 4.7</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">$179</span>
+                            <span class="original-price">$239</span>
+                        </div>
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="programming">
+                    <div class="course-image">
+                        <img src="images/eleven.jpg" alt="Data Science">
+                        <div class="course-level">Intermediate</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Data Science & Analytics</h3>
+                        <p>Learn Python for data analysis, machine learning, and visualization using pandas, scikit-learn, and matplotlib.</p>
+                        <div class="course-meta">
+                            <span class="duration">14 weeks</span>
+                            <span class="students">1,456 students</span>
+                            <span class="rating">★ 4.9</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">$399</span>
+                            <span class="original-price">$499</span>
+                        </div>
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card" data-category="business">
+                    <div class="course-image">
+                        <img src="images/twelve.jpg" alt="Entrepreneurship">
+                        <div class="course-level">Beginner</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Entrepreneurship & Startup</h3>
+                        <p>Turn your ideas into successful businesses with practical guidance on planning, funding, and scaling your startup.</p>
+                        <div class="course-meta">
+                            <span class="duration">9 weeks</span>
+                            <span class="students">2,123 students</span>
+                            <span class="rating">★ 4.6</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">$259</span>
+                            <span class="original-price">$339</span>
+                        </div>
+                        <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Can't Find What You're Looking For?</h2>
+            <p>We're constantly adding new courses. Contact us to suggest a course or get notified about upcoming releases.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">Suggest a Course</a>
+                <a href="#" class="btn btn-secondary">Join Newsletter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EduPlatform</h3>
+                    <p>Empowering learners worldwide with quality education and expert instruction.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="instructors.html">Instructors</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Email: info@eduplatform.com</li>
+                        <li>Phone: +233 (533) 233 838</li>
+                        <li>Address: 123 Education St, Learning City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EduPlatform. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
